@@ -1,0 +1,40 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		body {
+		  background-color: coral;
+		}
+
+		h1 {
+		  color: navy;
+		  margin-left: 20px;
+		}
+		
+		button {
+		background-color: white;
+		color: black;
+		padding: 15px 32px;
+		text-align: center;
+		margin: 4px 2px;
+		}
+	</style>
+    <meta charset="UTF-8">
+    <title>Index</title>
+ 
+</style>
+</head>
+<body>
+<h1 align="center">Index</h1>
+<a href="second.html">Link To Second Page</a></br>
+<button id="textChanger">Click Me!</button>
+<div id="firstDiv">Hello world!</div>
+<p>Am introdus si putin text.</p>
+<script>
+	document.getElementById("textChanger").onclick=function(){
+		document.getElementById("firstDiv").innerHTML= "Text is changed";
+	}
+</script>
+</body>
+</html>
